@@ -32,7 +32,7 @@ Issue the following commands:
 
 On another terminal:
 
-`docker exec -it kafka-multi-binder-2 /opt/kafka/bin/kafka-console-consumer.sh --bootstrap-server 127.0.0.1:9093 --topic dataOut`
+`docker exec -it kafka-multi-binder-2 /opt/kafka/bin/kafka-console-consumer.sh --bootstrap-server 127.0.0.1:9092 --topic dataOut`
 
 Enter some text on the first one and the same text appears on the second one.
 
